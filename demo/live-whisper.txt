@@ -1,0 +1,4 @@
+Live reply from gemma3:latest as the Archivist, on the loopback Ollama API.
+Command: ls no-such-candle (exit 2)
+
+The flame flickers, acknowledging the lost name. Another echo joins the quiet vigil.

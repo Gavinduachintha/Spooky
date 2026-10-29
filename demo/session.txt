@@ -1,0 +1,55 @@
+Haunted Terminal demo. This transcript uses the canned voice, so it runs with the network off.
+poltergeist (rattling):~/haunt-demo-r0vde7sc λ echo The terminal flickers.
+The terminal flickers.
+poltergeist (rattling):~/haunt-demo-r0vde7sc λ ls no-such-candle
+ls: cannot access 'no-such-candle': No such file or directory
+┌─ Poltergeist whispers from memory ───────────────────────────────────────────────────────────────┐
+│ I knocked twice on the return key. The exit code knocked back harder.                            │
+└──────────────────────────────────────────────────────────────────────────────────────────────────┘
+poltergeist (rattling):~/haunt-demo-r0vde7sc λ /spirits
+  archivist: Keeps a candle for deleted files, finished work, and commands that did not survive.
+  keeper: An old night watch who treats the prompt like a lighthouse lamp.
+* poltergeist: A petty spirit that rattles the pipes when a command fails.
+poltergeist (rattling):~/haunt-demo-r0vde7sc λ /spirit archivist
+Archivist takes the prompt. Keeps a candle for deleted files, finished work, and commands that did 
+not survive.
+archivist (remembering):~/haunt-demo-r0vde7sc + /manifest
+A file appeared: .haunt/manifestations/ofrenda.txt
+archivist (remembering):~/haunt-demo-r0vde7sc + ls .haunt/manifestations
+ofrenda.txt
+archivist (remembering):~/haunt-demo-r0vde7sc + git add note.txt
+┌─ Archivist whispers from memory ─────────────────────────────────────────────────────────────────┐
+│ The candle leaned in, the way it does when a name is worth keeping.                              │
+└──────────────────────────────────────────────────────────────────────────────────────────────────┘
+archivist (remembering):~/haunt-demo-r0vde7sc + /epitaph
+Commit with this epitaph?
+
+Remember what this change tried to keep
+
+Set among the other finished work.
+The archivist speaks the subject aloud once, then lets the log hold it.
+
+Type y to commit: 
+y
+Committed: Remember what this change tried to keep
+archivist (remembering):~/haunt-demo-r0vde7sc + git log -1 --format=%s
+Remember what this change tried to keep
+┌─ Archivist whispers from memory ─────────────────────────────────────────────────────────────────┐
+│ I set a marigold beside that command and let it pass into the finished things.                   │
+└──────────────────────────────────────────────────────────────────────────────────────────────────┘
+archivist (remembering):~/haunt-demo-r0vde7sc + /quiet
+The spirit holds its tongue.
+archivist (remembering):~/haunt-demo-r0vde7sc + git status
+On branch master
+nothing to commit, working tree clean
+archivist (remembering):~/haunt-demo-r0vde7sc + /loud
+The spirit speaks again.
+archivist (remembering):~/haunt-demo-r0vde7sc + /spirit keeper
+Keeper takes the prompt. An old night watch who treats the prompt like a lighthouse lamp.
+keeper (watching):~/haunt-demo-r0vde7sc # ls no-such-lamp
+ls: cannot access 'no-such-lamp': No such file or directory
+┌─ Keeper whispers from memory ────────────────────────────────────────────────────────────────────┐
+│ A squall in the exit code. I kept the light turned toward the prompt.                            │
+└──────────────────────────────────────────────────────────────────────────────────────────────────┘
+keeper (watching):~/haunt-demo-r0vde7sc # /banish
+Banished 1 manifestation(s).
